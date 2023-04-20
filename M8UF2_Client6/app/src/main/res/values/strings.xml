@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- APP NAME -->
+    <string name="app_name">PCShopp</string>
+
+    <!-- Strings used on LoginActivity -->
+    <string name="btnSignInWhitGoogle">Sign In Whit Google</string>
+
+    <!-- Strings used on HomeActivity -->
+
+    <!-- Strings used on menu.xml on R.menu -->
+    <string name="purchaseMenuOption">Purchase</string>
+    <string name="ordersMenuOption">Orders</string>
+
+    <!-- Strings used on purchaseMenuOption -->
+    <string name="computersMenuOption">Computers</string>
+    <string name="laptopsMenuOption">Laptops</string>
+    <string name="screensMenuOption">Screens</string>
+    <string name="keyboardsMenuOption">Keyboards</string>
+    <string name="mousesMenuOption">Mouses</string>
+
+    <!-- String for fragments that are actually blank -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings used on hints on item_list.xml -->
+    <string name="hint_product_description">Product description</string>
+    <string name="hint_product_name">Product name</string>
+    <string name="hint_product_price">Product price</string>
+
+</resources>

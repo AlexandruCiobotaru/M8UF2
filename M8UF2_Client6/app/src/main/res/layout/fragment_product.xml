@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailProductDescriptionId"
+        android:layout_width="205dp"
+        android:layout_height="53dp"
+        android:hint="@string/hint_product_description"
+        app:layout_constraintEnd_toStartOf="@+id/detailProductNameId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailProductImageId" />
+
+    <TextView
+        android:id="@+id/detailProductNameId"
+        android:layout_width="205dp"
+        android:layout_height="53dp"
+        android:hint="@string/hint_product_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/detailProductDescriptionId"
+        app:layout_constraintTop_toBottomOf="@+id/detailProductImageId" />
+
+    <ImageView
+        android:id="@+id/detailProductImageId"
+        android:layout_width="415dp"
+        android:layout_height="276dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/detailBtnProductPriceId"
+        android:layout_width="414dp"
+        android:layout_height="73dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

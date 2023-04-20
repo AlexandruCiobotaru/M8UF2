@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/purchaseMenuOptionId"
+        android:title="@string/purchaseMenuOption" >
+        <menu>
+            <item android:id="@+id/ComputersMenuOptionId"
+                android:title="@string/computersMenuOption" />
+            <item android:id="@+id/LaptopsMenuOptionId"
+                android:title="@string/laptopsMenuOption" />
+            <item android:id="@+id/ScreensMenuOptionId"
+                android:title="@string/screensMenuOption" />
+            <item android:id="@+id/KeyboardsMenuOptionId"
+                android:title="@string/keyboardsMenuOption" />
+            <item android:id="@+id/MousesMenuOptionId"
+                android:title="@string/mousesMenuOption" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/ordersMenuOptionId"
+        android:title="@string/ordersMenuOption" />
+</menu>
+
